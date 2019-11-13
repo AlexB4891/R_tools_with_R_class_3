@@ -258,6 +258,7 @@ centrada_2 <- apply(my.mat,2,function(x){
 centrada_2[1:5,1:5]
 ```
 
---- 
+---
+class: inverse, middle, center
 
 #Gracias
