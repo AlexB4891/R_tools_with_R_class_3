@@ -3,10 +3,9 @@ title: "Curso herramientas de análisis con R"
 subtitle: "Clase 3: Estructuras de control"
 author: "Alex Bajaña"
 institute: "infoRmal"
-date: "2019/11 (updated: `r Sys.Date()`)"
+date: "2019/11 (Actualizado: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
-    # seal: false
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -195,7 +194,7 @@ if(num > 1) {
 } 
 if(num == 2)    flag <-  1
 if(flag == 1) {
-  print(paste(num,"is a prime number"))
+  print(paste(num,"Es un número primo"))
 } else {
   next
 }
@@ -259,3 +258,6 @@ centrada_2 <- apply(my.mat,2,function(x){
 centrada_2[1:5,1:5]
 ```
 
+--- 
+
+#Gracias
